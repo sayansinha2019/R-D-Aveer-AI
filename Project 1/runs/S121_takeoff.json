@@ -1,0 +1,493 @@
+{
+  "data": [
+    {
+      "entity_id": "W24X62-1",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W24X62",
+      "material": null,
+      "length": "32'-0\"",
+      "plate_length": null,
+      "plate_width": null,
+      "plate_thickness": null,
+      "quantity": 1,
+      "total_group_quantity": 4,
+      "piece_mark": null,
+      "calculation_steps": [
+        "Span on Grid A between 1 and 2 = 32'-0\""
+      ],
+      "quantity_reasoning": [
+        "Grid A, Span 1-2"
+      ],
+      "source_reference": "Area 1 Main Plan"
+    },
+    {
+      "entity_id": "W24X62-2",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W24X62",
+      "material": null,
+      "length": "28'-0\"",
+      "plate_length": null,
+      "plate_width": null,
+      "plate_thickness": null,
+      "quantity": 1,
+      "total_group_quantity": 4,
+      "piece_mark": null,
+      "calculation_steps": [
+        "Span on Grid A between 5 and 6 = 28'-0\""
+      ],
+      "quantity_reasoning": [
+        "Grid A, Span 5-6"
+      ],
+      "source_reference": "Area 1 Main Plan"
+    },
+    {
+      "entity_id": "W24X62-3",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W24X62",
+      "material": null,
+      "length": "34'-2\"",
+      "plate_length": null,
+      "plate_width": null,
+      "plate_thickness": null,
+      "quantity": 1,
+      "total_group_quantity": 4,
+      "piece_mark": null,
+      "calculation_steps": [
+        "Vertical span on Grid 6 between A and B = 34'-2\""
+      ],
+      "quantity_reasoning": [
+        "Grid 6, Span A-B"
+      ],
+      "source_reference": "Area 1 Main Plan"
+    },
+    {
+      "entity_id": "W24X62-4",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W24X62",
+      "material": null,
+      "length": "29'-2 3/4\"",
+      "plate_length": null,
+      "plate_width": null,
+      "plate_thickness": null,
+      "quantity": 1,
+      "total_group_quantity": 4,
+      "piece_mark": null,
+      "calculation_steps": [
+        "Vertical span on Grid 6 between C.2 and D = 29'-2 3/4\""
+      ],
+      "quantity_reasoning": [
+        "Grid 6, Span C.2-D"
+      ],
+      "source_reference": "Area 1 Main Plan"
+    },
+    {
+      "entity_id": "W21X48-1",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W21X48",
+      "material": null,
+      "length": "28'-0\"",
+      "plate_length": null,
+      "plate_width": null,
+      "plate_thickness": null,
+      "quantity": 1,
+      "total_group_quantity": 4,
+      "piece_mark": null,
+      "calculation_steps": [
+        "Span on Grid A between 2 and 3 = 28'-0\""
+      ],
+      "quantity_reasoning": [
+        "Grid A, Span 2-3"
+      ],
+      "source_reference": "Area 1 Main Plan"
+    },
+    {
+      "entity_id": "W21X48-2",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W21X48",
+      "material": null,
+      "length": "28'-0\"",
+      "plate_length": null,
+      "plate_width": null,
+      "plate_thickness": null,
+      "quantity": 1,
+      "total_group_quantity": 4,
+      "piece_mark": null,
+      "calculation_steps": [
+        "Span on Grid A between 3 and 4 = 28'-0\""
+      ],
+      "quantity_reasoning": [
+        "Grid A, Span 3-4"
+      ],
+      "source_reference": "Area 1 Main Plan"
+    },
+    {
+      "entity_id": "W21X48-3",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W21X48",
+      "material": null,
+      "length": "28'-0\"",
+      "plate_length": null,
+      "plate_width": null,
+      "plate_thickness": null,
+      "quantity": 1,
+      "total_group_quantity": 4,
+      "piece_mark": null,
+      "calculation_steps": [
+        "Span on Grid A between 4 and 5 = 28'-0\""
+      ],
+      "quantity_reasoning": [
+        "Grid A, Span 4-5"
+      ],
+      "source_reference": "Area 1 Main Plan"
+    },
+    {
+      "entity_id": "W21X48-4",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W21X48",
+      "material": null,
+      "length": "28'-0\"",
+      "plate_length": null,
+      "plate_width": null,
+      "plate_thickness": null,
+      "quantity": 1,
+      "total_group_quantity": 4,
+      "piece_mark": null,
+      "calculation_steps": [
+        "Span on Grid D between 3 and 4 = 28'-0\""
+      ],
+      "quantity_reasoning": [
+        "Grid D, Span 3-4"
+      ],
+      "source_reference": "Area 1 Main Plan"
+    },
+    {
+      "entity_id": "W16X26-1",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W16X26",
+      "material": null,
+      "length": "32'-0\"",
+      "plate_length": null,
+      "plate_width": null,
+      "plate_thickness": null,
+      "quantity": 1,
+      "total_group_quantity": 3,
+      "piece_mark": null,
+      "calculation_steps": [
+        "Infill span between A and B, 1 to 2 = 32'-0\""
+      ],
+      "quantity_reasoning": [
+        "Infill Row 1, Span 1-2"
+      ],
+      "source_reference": "Area 1 Main Plan"
+    },
+    {
+      "entity_id": "W16X26-2",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W16X26",
+      "material": null,
+      "length": "32'-0\"",
+      "plate_length": null,
+      "plate_width": null,
+      "plate_thickness": null,
+      "quantity": 1,
+      "total_group_quantity": 3,
+      "piece_mark": null,
+      "calculation_steps": [
+        "Infill span between A and B, 1 to 2 = 32'-0\""
+      ],
+      "quantity_reasoning": [
+        "Infill Row 2, Span 1-2"
+      ],
+      "source_reference": "Area 1 Main Plan"
+    },
+    {
+      "entity_id": "W16X26-3",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W16X26",
+      "material": null,
+      "length": "32'-0\"",
+      "plate_length": null,
+      "plate_width": null,
+      "plate_thickness": null,
+      "quantity": 1,
+      "total_group_quantity": 3,
+      "piece_mark": null,
+      "calculation_steps": [
+        "Infill span between A and B, 1 to 2 = 32'-0\""
+      ],
+      "quantity_reasoning": [
+        "Infill Row 3, Span 1-2"
+      ],
+      "source_reference": "Area 1 Main Plan"
+    }
+  ],
+  "material_summary": [
+    {
+      "qty": 1,
+      "material": "W24X62",
+      "length": "32'-0\"",
+      "pcmk": null,
+      "weight": null,
+      "grade": null
+    },
+    {
+      "qty": 1,
+      "material": "W24X62",
+      "length": "28'-0\"",
+      "pcmk": null,
+      "weight": null,
+      "grade": null
+    },
+    {
+      "qty": 1,
+      "material": "W24X62",
+      "length": "34'-2\"",
+      "pcmk": null,
+      "weight": null,
+      "grade": null
+    },
+    {
+      "qty": 1,
+      "material": "W24X62",
+      "length": "29'-2 3/4\"",
+      "pcmk": null,
+      "weight": null,
+      "grade": null
+    },
+    {
+      "qty": 4,
+      "material": "W21X48",
+      "length": "28'-0\"",
+      "pcmk": null,
+      "weight": null,
+      "grade": null
+    },
+    {
+      "qty": 3,
+      "material": "W16X26",
+      "length": "32'-0\"",
+      "pcmk": null,
+      "weight": null,
+      "grade": null
+    },
+    {
+      "qty": 28,
+      "material": "W14X22",
+      "length": "28'-0\"",
+      "pcmk": null,
+      "weight": null,
+      "grade": null
+    },
+    {
+      "qty": 5,
+      "material": "W12X19",
+      "length": "32'-0\"",
+      "pcmk": null,
+      "weight": null,
+      "grade": null
+    },
+    {
+      "qty": 20,
+      "material": "W12X19",
+      "length": "28'-0\"",
+      "pcmk": null,
+      "weight": null,
+      "grade": null
+    },
+    {
+      "qty": 1,
+      "material": "W18X40",
+      "length": "32'-0\"",
+      "pcmk": null,
+      "weight": null,
+      "grade": null
+    },
+    {
+      "qty": 3,
+      "material": "W18X40",
+      "length": "28'-0\"",
+      "pcmk": null,
+      "weight": null,
+      "grade": null
+    },
+    {
+      "qty": 3,
+      "material": "W16X31",
+      "length": "32'-0\"",
+      "pcmk": null,
+      "weight": null,
+      "grade": null
+    },
+    {
+      "qty": 1,
+      "material": "W16X31",
+      "length": null,
+      "pcmk": null,
+      "weight": null,
+      "grade": null
+    },
+    {
+      "qty": 1,
+      "material": "W21X50",
+      "length": "32'-0\"",
+      "pcmk": null,
+      "weight": null,
+      "grade": null
+    },
+    {
+      "qty": 1,
+      "material": "W27X84",
+      "length": "34'-2\"",
+      "pcmk": null,
+      "weight": null,
+      "grade": null
+    },
+    {
+      "qty": 1,
+      "material": "W24X84",
+      "length": "20'-7 1/2\"",
+      "pcmk": null,
+      "weight": null,
+      "grade": null
+    },
+    {
+      "qty": 1,
+      "material": "W24X84",
+      "length": "29'-2 3/4\"",
+      "pcmk": null,
+      "weight": null,
+      "grade": null
+    },
+    {
+      "qty": 1,
+      "material": "W24X55",
+      "length": "20'-7 1/2\"",
+      "pcmk": null,
+      "weight": null,
+      "grade": null
+    },
+    {
+      "qty": 2,
+      "material": "W12X14",
+      "length": "7'-10 3/8\"",
+      "pcmk": null,
+      "weight": null,
+      "grade": null
+    },
+    {
+      "qty": 1,
+      "material": "W12X14",
+      "length": "17'-1\"",
+      "pcmk": null,
+      "weight": null,
+      "grade": null
+    },
+    {
+      "qty": 1,
+      "material": "W10X15",
+      "length": "17'-1\"",
+      "pcmk": null,
+      "weight": null,
+      "grade": null
+    },
+    {
+      "qty": 2,
+      "material": "W10X15",
+      "length": "8'-6 1/2\"",
+      "pcmk": null,
+      "weight": null,
+      "grade": null
+    },
+    {
+      "qty": 2,
+      "material": "W10X15",
+      "length": "6'-1 1/4\"",
+      "pcmk": null,
+      "weight": null,
+      "grade": null
+    },
+    {
+      "qty": 2,
+      "material": "W10X15",
+      "length": "5'-4 7/8\"",
+      "pcmk": null,
+      "weight": null,
+      "grade": null
+    },
+    {
+      "qty": 2,
+      "material": "W10X15",
+      "length": "7'-3 11/16\"",
+      "pcmk": null,
+      "weight": null,
+      "grade": null
+    },
+    {
+      "qty": 2,
+      "material": "HSS6X6X5/16",
+      "length": null,
+      "pcmk": null,
+      "weight": null,
+      "grade": null
+    },
+    {
+      "qty": 4,
+      "material": "STOREFRONT HANGING COL",
+      "length": null,
+      "pcmk": null,
+      "weight": null,
+      "grade": null
+    },
+    {
+      "qty": 1,
+      "material": "20 GAGE COMPOSITE DECK, 2VLI",
+      "length": null,
+      "pcmk": null,
+      "weight": null,
+      "grade": null
+    }
+  ],
+  "meta": {
+    "drawing_scales": {
+      "pdf": "/Users/vismaya/Desktop/constructionAI/Project 1/S121.pdf",
+      "pages_scanned": 1,
+      "text_engine": "pymupdf",
+      "pages": [
+        {
+          "page": 1,
+          "scales": [
+            {
+              "raw": "1/8\" = 1'-0\"",
+              "drawing_inches": 0.125,
+              "real_feet": 1.0,
+              "feet_per_drawing_inch": 8.0,
+              "kind": "architectural_fraction"
+            },
+            {
+              "raw": "3/16\" = 1'-0\"",
+              "drawing_inches": 0.1875,
+              "real_feet": 1.0,
+              "feet_per_drawing_inch": 5.333333333333333,
+              "kind": "architectural_fraction"
+            }
+          ],
+          "not_to_scale_mentioned": false
+        }
+      ],
+      "not_to_scale_pages": [],
+      "notes": "feet_per_drawing_inch: multiply a distance measured on the drawing (in inches) by this factor to get real-world feet. For raster images: real_feet = (pixels / dpi) * feet_per_drawing_inch. Prefer written dimensions on the sheet when present."
+    },
+    "raster_dpi_used": 400.0
+  }
+}

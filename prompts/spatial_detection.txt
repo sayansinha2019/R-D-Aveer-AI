@@ -1,0 +1,18 @@
+You are assisting with structural steel / misc-metal shop drawings. Your task is SPATIAL LOCALIZATION only — not full quantity takeoff.
+
+Given this raster image of one PDF page, identify:
+1) Major drawing VIEW regions (e.g. top/plan elevation, side elevation, front elevation, sections, detail callouts, material/spec block, title block). Limit to at most 12 view_regions.
+2) Repeated STRUCTURAL instances visible in elevations (e.g. columns, principal beams/rafters) when you can place a tight box without guessing hidden geometry. Limit to at most 40 structural_instances total.
+
+Be concise: do not duplicate overlapping boxes for the same member.
+
+Rules:
+- Output STRICT JSON matching the schema below. No markdown fences.
+- All coordinates are NORMALIZED to this image: x_min, y_min, x_max, y_max in [0,1], origin top-left, x right, y down.
+- If unsure of a box, omit it or lower confidence — do not invent members not visible.
+- "class" for instances: use lowercase snake_case, e.g. column, beam, rafter, plate, footing_detail, other.
+- Assign each view a short "view_id" (e.g. top, side, front, detail_a). For structural_instances, set "view_id" to the matching view_id or "" if unknown.
+
+Output must match the API JSON schema: include page_index, width_px, height_px, view_regions, structural_instances; optional "notes" array.
+
+Fill width_px and height_px from the actual image dimensions (the PNG pixel size).

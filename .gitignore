@@ -1,0 +1,26 @@
+# Environment and secrets
+.env
+sf-ai-keys.json
+
+# Virtual environment
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+
+# Generated pipeline outputs
+takeoff_output*.json
+takeoff_output*.xlsx
+drawing_scales.json
+detections_output.json
+fusion_report.json
+geometry_report.json
+validation_report.json
+detection_raw_response_failed.txt
+benchmark_runs/
+
+# OS
+.DS_Store

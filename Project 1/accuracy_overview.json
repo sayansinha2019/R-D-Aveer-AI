@@ -1,0 +1,50 @@
+{
+  "reference_path": "/Users/vismaya/Desktop/constructionAI/Project 1/Project-1 - BOM - April 19, 2026.xlsx",
+  "generated_path": "/Users/vismaya/Desktop/constructionAI/Project 1/Project-1 - Generated BOM - pipeline_accuracy.xlsx",
+  "row_counts": {
+    "reference": 316,
+    "generated": 25
+  },
+  "categories_reference": {
+    "Bolts": 98,
+    "Beams": 88,
+    "Clips": 52,
+    "Plates": 27,
+    "Columns": 26,
+    "Anchors": 24,
+    "Weld Studs": 1
+  },
+  "categories_generated": {
+    "Foundations": 13,
+    "Beams": 11,
+    "Plates": 1
+  },
+  "unique_piecemarks": {
+    "reference": 115,
+    "generated": 25,
+    "intersection": 0
+  },
+  "w_beam_sections": {
+    "reference_distinct": 17,
+    "generated_distinct": 3,
+    "in_both": 3
+  },
+  "w_qty_exact_match_on_shared_sections": 1,
+  "w_qty_shared_sections_compared": 3,
+  "w_qty_match_rate_on_shared": 0.3333333333333333,
+  "w_qty_deltas_on_shared": [
+    {
+      "section": "W21X48",
+      "reference_qty": 5,
+      "generated_qty": 4,
+      "ratio_gen_over_ref": 0.8
+    },
+    {
+      "section": "W24X62",
+      "reference_qty": 3,
+      "generated_qty": 4,
+      "ratio_gen_over_ref": 1.3333
+    }
+  ],
+  "note": "Piecemark IDs differ when the model uses shop marks (B_24) vs generated labels (BEAM-1). W-shape rollups compare like structural sizes only."
+}

@@ -1,0 +1,17 @@
+field,description
+entity_id,Unique id per physical piece (e.g. COL-1) — expand quantities into separate rows
+parent_group,Group name (Columns Beams Rafters Plates etc.)
+element_type,Column Beam Rafter BasePlate Plate AnchorBolt RoofSheet etc.
+section,Steel section or plate callout as on drawing
+material,Grade or spec when shown (null if not specified)
+length,Cut length or null — use plate_dims for base plates per prompt rules
+plate_length,For base plates: e.g. 12"
+plate_width,For base plates: e.g. 12"
+plate_thickness,For base plates: e.g. 3/4"
+quantity,Always 1 per JSON object when expanded
+total_group_quantity,Original schedule qty for the group
+piece_mark,Shop mark if present
+weight,Total member weight in lb when shown on drawing OR nominal lb/ft×length for W/M/S/HP/MC when computed; else null
+calculation_steps,Array of math strings
+quantity_reasoning,Array of strings
+source_reference,Where taken from the drawing

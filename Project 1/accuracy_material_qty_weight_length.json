@@ -1,0 +1,400 @@
+{
+  "reference_xlsx": "/Users/vismaya/Desktop/constructionAI/Project 1/Project-1 - BOM - April 19, 2026.xlsx",
+  "generated_xlsx": "/Users/vismaya/Desktop/constructionAI/Project 1/Project-1 - Generated BOM - pipeline_accuracy.xlsx",
+  "source_rows": {
+    "reference": 316,
+    "generated": 25
+  },
+  "distinct_rollup_keys": {
+    "reference": 72,
+    "generated": 20,
+    "intersection": 0,
+    "only_reference": 72,
+    "only_generated": 20
+  },
+  "key_coverage_recall": 0.0,
+  "key_coverage_precision": 0.0,
+  "qty_on_intersection_keys": {
+    "reference_total": 0,
+    "generated_total": 0,
+    "keys_with_exact_qty_match": 0,
+    "keys_compared": 0,
+    "qty_exact_match_rate_on_keys": null,
+    "mean_abs_qty_error_per_key": null,
+    "mean_abs_qty_error_vs_ref_total": null
+  },
+  "weight_on_intersection_keys": {
+    "keys_with_any_weight": 0,
+    "mean_abs_weight_error_lb": null,
+    "note": "Weight cells parsed from column J; summed per rollup key (same as qty rollup)."
+  },
+  "length": {
+    "definition": "Length is included in rollup key; matching keys imply matching length strings.",
+    "matched_keys_imply_length_match_count": 0
+  },
+  "material_identity": {
+    "definition": "Rollup key = Category + Section type + Section + Length + Grade (piecemark excluded)."
+  },
+  "sample_keys_only_in_reference": [
+    {
+      "category": "Anchors",
+      "section_type": "AB",
+      "section": "1 3/4\"x2' 6 1/2\"",
+      "length": "",
+      "grade": "Grade 36"
+    },
+    {
+      "category": "Anchors",
+      "section_type": "AB",
+      "section": "1\"x2' 3\"",
+      "length": "",
+      "grade": "Grade 36"
+    },
+    {
+      "category": "Anchors",
+      "section_type": "AB",
+      "section": "3/4\"x1' 1 3/4\"",
+      "length": "",
+      "grade": "Grade 36"
+    },
+    {
+      "category": "Anchors",
+      "section_type": "AB",
+      "section": "3/4\"x1' 2\"",
+      "length": "",
+      "grade": "Grade 36"
+    },
+    {
+      "category": "Anchors",
+      "section_type": "AB",
+      "section": "3/4\"x2' 2\"",
+      "length": "",
+      "grade": "Grade 36"
+    },
+    {
+      "category": "Beams",
+      "section_type": "HSS",
+      "section": "6x6x5/16",
+      "length": "26'-11",
+      "grade": "Grade C"
+    },
+    {
+      "category": "Beams",
+      "section_type": "HSS",
+      "section": "6x6x5/16",
+      "length": "5'-3 1/2",
+      "grade": "Grade C"
+    },
+    {
+      "category": "Beams",
+      "section_type": "W",
+      "section": "10x15",
+      "length": "10'-11 3/4",
+      "grade": "A992"
+    },
+    {
+      "category": "Beams",
+      "section_type": "W",
+      "section": "10x15",
+      "length": "11'-10 3/4",
+      "grade": "A992"
+    },
+    {
+      "category": "Beams",
+      "section_type": "W",
+      "section": "10x15",
+      "length": "14'-2 3/4",
+      "grade": "A992"
+    },
+    {
+      "category": "Beams",
+      "section_type": "W",
+      "section": "10x15",
+      "length": "4'-6",
+      "grade": "A992"
+    },
+    {
+      "category": "Beams",
+      "section_type": "W",
+      "section": "10x15",
+      "length": "5'-11 1/4",
+      "grade": "A992"
+    },
+    {
+      "category": "Beams",
+      "section_type": "W",
+      "section": "10x15",
+      "length": "9'-1 1/2",
+      "grade": "A992"
+    },
+    {
+      "category": "Beams",
+      "section_type": "W",
+      "section": "10x19",
+      "length": "15'-10",
+      "grade": "A992"
+    },
+    {
+      "category": "Beams",
+      "section_type": "W",
+      "section": "10x33",
+      "length": "14'-2 3/4",
+      "grade": "A992"
+    },
+    {
+      "category": "Beams",
+      "section_type": "W",
+      "section": "12x14",
+      "length": "9'-5 3/4",
+      "grade": "A992"
+    },
+    {
+      "category": "Beams",
+      "section_type": "W",
+      "section": "12x19",
+      "length": "12'-9 1/2",
+      "grade": "A992"
+    },
+    {
+      "category": "Beams",
+      "section_type": "W",
+      "section": "12x19",
+      "length": "27'-10 1/2",
+      "grade": "A992"
+    },
+    {
+      "category": "Beams",
+      "section_type": "W",
+      "section": "12x19",
+      "length": "27'-10 1/4",
+      "grade": "A992"
+    },
+    {
+      "category": "Beams",
+      "section_type": "W",
+      "section": "12x19",
+      "length": "28'-0",
+      "grade": "A992"
+    },
+    {
+      "category": "Beams",
+      "section_type": "W",
+      "section": "12x19",
+      "length": "28'-0 1/4",
+      "grade": "A992"
+    },
+    {
+      "category": "Beams",
+      "section_type": "W",
+      "section": "12x19",
+      "length": "31'-10 1/2",
+      "grade": "A992"
+    },
+    {
+      "category": "Beams",
+      "section_type": "W",
+      "section": "12x19",
+      "length": "31'-11 1/2",
+      "grade": "A992"
+    },
+    {
+      "category": "Beams",
+      "section_type": "W",
+      "section": "12x19",
+      "length": "4'-11 1/4",
+      "grade": "A992"
+    },
+    {
+      "category": "Beams",
+      "section_type": "W",
+      "section": "12x19",
+      "length": "6'-3 1/4",
+      "grade": "A992"
+    }
+  ],
+  "sample_keys_only_in_generated": [
+    {
+      "category": "Beams",
+      "section_type": "W",
+      "section": "16x26",
+      "length": "32'-0\"",
+      "grade": "A992"
+    },
+    {
+      "category": "Beams",
+      "section_type": "W",
+      "section": "21x48",
+      "length": "28'-0\"",
+      "grade": "A992"
+    },
+    {
+      "category": "Beams",
+      "section_type": "W",
+      "section": "24x62",
+      "length": "28'-0\"",
+      "grade": ""
+    },
+    {
+      "category": "Beams",
+      "section_type": "W",
+      "section": "24x62",
+      "length": "29'-2 3/4\"",
+      "grade": ""
+    },
+    {
+      "category": "Beams",
+      "section_type": "W",
+      "section": "24x62",
+      "length": "32'-0\"",
+      "grade": "A992"
+    },
+    {
+      "category": "Beams",
+      "section_type": "W",
+      "section": "24x62",
+      "length": "34'-2\"",
+      "grade": ""
+    },
+    {
+      "category": "Foundations",
+      "section_type": "PL",
+      "section": "F10.0",
+      "length": "2'-6\" x 10'-0\"",
+      "grade": "BTM REINFORCING: LW (10)#7, SW (10)#7"
+    },
+    {
+      "category": "Foundations",
+      "section_type": "PL",
+      "section": "F10X7",
+      "length": "2'-0\" x 7'-0\"",
+      "grade": "BTM REINFORCING: LW (7)#7, SW (9)#7"
+    },
+    {
+      "category": "Foundations",
+      "section_type": "PL",
+      "section": "F11.0",
+      "length": "2'-6\" x 11'-0\"",
+      "grade": "BTM REINFORCING: LW (11)#8, SW (11)#8"
+    },
+    {
+      "category": "Foundations",
+      "section_type": "PL",
+      "section": "F12.0",
+      "length": "2'-6\" x 12'-0\"",
+      "grade": "BTM REINF: LW (12)#8, SW (12)#8; TOP REINF: LW (12)#5, SW (12)#5"
+    },
+    {
+      "category": "Foundations",
+      "section_type": "PL",
+      "section": "F13.0",
+      "length": "3'-0\" x 13'-0\"",
+      "grade": "BTM REINF: LW (13)#9, SW (13)#9; TOP REINF: LW (13)#5, SW (13)#5"
+    },
+    {
+      "category": "Foundations",
+      "section_type": "PL",
+      "section": "F13.0B",
+      "length": "3'-6\" x 13'-0\"",
+      "grade": "BTM REINF: LW (13)#9, SW (13)#9; TOP REINF: LW (13)#5, SW (13)#5"
+    },
+    {
+      "category": "Foundations",
+      "section_type": "PL",
+      "section": "F13X15",
+      "length": "2'-0\" x 12'-11\"",
+      "grade": "SEE SECTION 12/S402"
+    },
+    {
+      "category": "Foundations",
+      "section_type": "PL",
+      "section": "F14.0",
+      "length": "3'-0\" x 14'-0\"",
+      "grade": "BTM REINF: LW (14)#9, SW (14)#9; TOP REINF: LW (14)#5, SW (14)#5"
+    },
+    {
+      "category": "Foundations",
+      "section_type": "PL",
+      "section": "F4.0",
+      "length": "2'-0\" x 4'-0\"",
+      "grade": "BTM REINFORCING: LW (4)#5, SW (4)#5"
+    },
+    {
+      "category": "Foundations",
+      "section_type": "PL",
+      "section": "F7.0",
+      "length": "2'-0\" x 7'-0\"",
+      "grade": "BTM REINFORCING: LW (7)#7, SW (7)#7"
+    },
+    {
+      "category": "Foundations",
+      "section_type": "PL",
+      "section": "F8.0",
+      "length": "2'-0\" x 8'-0\"",
+      "grade": "BTM REINFORCING: LW (8)#7, SW (8)#7"
+    },
+    {
+      "category": "Foundations",
+      "section_type": "PL",
+      "section": "F9.0",
+      "length": "2'-0\" x 9'-0\"",
+      "grade": "BTM REINFORCING: LW (9)#7, SW (9)#7"
+    },
+    {
+      "category": "Foundations",
+      "section_type": "PL",
+      "section": "MF-1",
+      "length": "",
+      "grade": "SEE DETAIL 5/S201"
+    },
+    {
+      "category": "Plates",
+      "section_type": "PL",
+      "section": "8\" THK CIP CONC WALL",
+      "length": "",
+      "grade": "CONCRETE"
+    }
+  ],
+  "per_key_detail_top_50": [],
+  "relaxed_w_beam_keys": {
+    "description": "Category=Beams, Section type=W; key = normalized W designation + length (in) snapped to 6\"; grade ignored.",
+    "distinct_keys_reference": 30,
+    "distinct_keys_generated": 6,
+    "keys_in_both": 3,
+    "qty_exact_match_on_shared_keys": 3,
+    "qty_match_rate_on_shared": 1.0,
+    "mean_abs_qty_error_on_shared": 0.0,
+    "mean_abs_weight_lb_error_on_shared": 15.103333333333543,
+    "shared_key_detail": [
+      {
+        "w_section": "W16X26",
+        "length_inches_snapped_6in": 384.0,
+        "reference_qty": 3,
+        "generated_qty": 3,
+        "qty_delta": 0,
+        "reference_weight_lb": 2491.26,
+        "generated_weight_lb": 2496.0,
+        "weight_abs_delta_lb": 4.74
+      },
+      {
+        "w_section": "W21X48",
+        "length_inches_snapped_6in": 336.0,
+        "reference_qty": 4,
+        "generated_qty": 4,
+        "qty_delta": 0,
+        "reference_weight_lb": 5344.32,
+        "generated_weight_lb": 5376.0,
+        "weight_abs_delta_lb": 31.68
+      },
+      {
+        "w_section": "W24X62",
+        "length_inches_snapped_6in": 384.0,
+        "reference_qty": 1,
+        "generated_qty": 1,
+        "qty_delta": 0,
+        "reference_weight_lb": 1975.11,
+        "generated_weight_lb": 1984.0,
+        "weight_abs_delta_lb": 8.89
+      }
+    ]
+  }
+}
