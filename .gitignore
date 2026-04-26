@@ -22,5 +22,9 @@ validation_report.json
 detection_raw_response_failed.txt
 benchmark_runs/
 
+# Large binaries (keep out of git)
+*.pdf
+*.xlsx
+
 # OS
 .DS_Store
