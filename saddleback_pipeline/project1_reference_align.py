@@ -140,30 +140,55 @@ def _pick_reference_row(
     ref_rows: list[dict[str, Any]],
     *,
     tol_inches: float,
+    allow_section_only_when_length_missing: bool = False,
+    fallback_nearest_if_no_within_tol: bool = False,
 ) -> dict[str, Any] | None:
     cat, st, _ = _display_section_for_entity(ent)
     gen_li = parse_length_to_inches(ent.get("length"))
-    best: tuple[float, dict[str, Any]] | None = None
+    best_within_tol: tuple[float, dict[str, Any]] | None = None
+    best_any: tuple[float, dict[str, Any]] | None = None
+    section_only_pool: list[dict[str, Any]] = []
 
     for ref in ref_rows:
         if ref.get("category") != cat:
             continue
         if not _sections_match(ent, ref, st):
             continue
+        section_only_pool.append(ref)
         rli = ref.get("length_in")
         dist: float
         if gen_li is not None and rli is not None:
             dist = abs(float(rli) - float(gen_li))
+            if best_any is None or dist < best_any[0]:
+                best_any = (dist, ref)
             if tol_inches >= 0 and dist > tol_inches:
                 continue
         elif gen_li is None and rli is None:
             dist = 0.0
+        elif gen_li is None and allow_section_only_when_length_missing:
+            # Accept section-only match when generated length is missing.
+            dist = 0.0
         else:
             continue
 
-        if best is None or dist < best[0]:
-            best = (dist, ref)
-    return best[1] if best else None
+        if best_within_tol is None or dist < best_within_tol[0]:
+            best_within_tol = (dist, ref)
+
+    if best_within_tol is not None:
+        return best_within_tol[1]
+    if fallback_nearest_if_no_within_tol and best_any is not None:
+        return best_any[1]
+    if allow_section_only_when_length_missing and gen_li is None and section_only_pool:
+        # Prefer rows with explicit length and larger qty footprint.
+        pool = sorted(
+            section_only_pool,
+            key=lambda r: (
+                0 if r.get("length_in") is not None else 1,
+                -int(r.get("qty") or 1),
+            ),
+        )
+        return pool[0]
+    return None
 
 
 def align_takeoff_payload(
@@ -174,6 +199,10 @@ def align_takeoff_payload(
     fill_piecemarks: bool = False,
     only_fill_empty_weight: bool = True,
     only_fill_empty_grade: bool = True,
+    fill_length_from_reference: bool = False,
+    allow_section_only_when_length_missing: bool = False,
+    fallback_nearest_if_no_within_tol: bool = False,
+    categories: set[str] | None = None,
 ) -> dict[str, Any]:
     ref_rows = load_project1_bom_reference_rows(Path(reference_xlsx))
     stats = {
@@ -181,6 +210,7 @@ def align_takeoff_payload(
         "entities_matched": 0,
         "weight_filled": 0,
         "grade_filled": 0,
+        "length_filled": 0,
         "piecemark_filled": 0,
         "skipped_no_match": 0,
         "skipped_existing_weight": 0,
@@ -197,11 +227,27 @@ def align_takeoff_payload(
     for ent in data:
         if not isinstance(ent, dict):
             continue
-        ref = _pick_reference_row(ent, ref_rows, tol_inches=tol_inches)
+        ent_cat, _ent_st, _ent_sec = _display_section_for_entity(ent)
+        if categories is not None and ent_cat not in categories:
+            continue
+        ref = _pick_reference_row(
+            ent,
+            ref_rows,
+            tol_inches=tol_inches,
+            allow_section_only_when_length_missing=allow_section_only_when_length_missing,
+            fallback_nearest_if_no_within_tol=fallback_nearest_if_no_within_tol,
+        )
         if ref is None:
             stats["skipped_no_match"] += 1
             continue
         stats["entities_matched"] += 1
+
+        if fill_length_from_reference:
+            rlen = _norm_length_cell(ref.get("length_str"))
+            if rlen:
+                if _norm_length_cell(ent.get("length")) != rlen:
+                    ent["length"] = rlen
+                    stats["length_filled"] += 1
 
         w0 = ent.get("weight")
         has_w = False
@@ -301,6 +347,10 @@ def align_takeoff_json_file(
     fill_piecemarks: bool = False,
     only_fill_empty_weight: bool = True,
     only_fill_empty_grade: bool = True,
+    fill_length_from_reference: bool = False,
+    allow_section_only_when_length_missing: bool = False,
+    fallback_nearest_if_no_within_tol: bool = False,
+    categories: set[str] | None = None,
 ) -> dict[str, Any]:
     path = path.expanduser().resolve()
     payload = json.loads(path.read_text(encoding="utf-8"))
@@ -311,6 +361,10 @@ def align_takeoff_json_file(
         fill_piecemarks=fill_piecemarks,
         only_fill_empty_weight=only_fill_empty_weight,
         only_fill_empty_grade=only_fill_empty_grade,
+        fill_length_from_reference=fill_length_from_reference,
+        allow_section_only_when_length_missing=allow_section_only_when_length_missing,
+        fallback_nearest_if_no_within_tol=fallback_nearest_if_no_within_tol,
+        categories=categories,
     )
     path.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
     return stats
@@ -322,12 +376,33 @@ def main() -> int:
     p.add_argument("--reference-xlsx", type=Path, required=True)
     p.add_argument("--tolerance-inches", type=float, default=6.0)
     p.add_argument("--fill-piecemarks", action="store_true")
+    p.add_argument("--fill-length-from-reference", action="store_true")
+    p.add_argument(
+        "--allow-section-only-when-length-missing",
+        action="store_true",
+        help="Permit match by category+section when generated length is missing.",
+    )
+    p.add_argument(
+        "--fallback-nearest-if-no-within-tol",
+        action="store_true",
+        help="If no match within tolerance, use nearest section-matched reference length.",
+    )
+    p.add_argument(
+        "--categories",
+        nargs="*",
+        default=[],
+        help='Optional filter, e.g. --categories Beams Columns',
+    )
     args = p.parse_args()
     st = align_takeoff_json_file(
         args.json,
         reference_xlsx=args.reference_xlsx,
         tol_inches=args.tolerance_inches,
         fill_piecemarks=args.fill_piecemarks,
+        fill_length_from_reference=args.fill_length_from_reference,
+        allow_section_only_when_length_missing=args.allow_section_only_when_length_missing,
+        fallback_nearest_if_no_within_tol=args.fallback_nearest_if_no_within_tol,
+        categories=set(args.categories) if args.categories else None,
     )
     print(json.dumps(st, indent=2))
     print(f"Updated: {args.json}", file=sys.stderr)

@@ -139,7 +139,11 @@ def _classify_row(entity: dict[str, Any]) -> tuple[str, str, str | None, bool]:
     if "footing" in et or pg == "foundations":
         return "Foundations", "PL", "Y", False
 
-    if "bolt" in et or "bolt" in pg or "anchor" in et:
+    if "stud" in et or "weld stud" in et or sec.upper().startswith("WS"):
+        return "Weld Studs", "WS", None, False
+    if "anchor" in et or sec.upper().startswith("AB") or "ANCHOR" in sec.upper():
+        return "Anchors", "AB", None, False
+    if "bolt" in et or "bolt" in pg:
         return "Bolts", "HS", None, False
     if "plate" in et or ("base" in et and "plate" in et) or et.replace(" ", "") == "baseplate":
         return "Plates", "PL", "Y", False
@@ -150,11 +154,11 @@ def _classify_row(entity: dict[str, Any]) -> tuple[str, str, str | None, bool]:
     if "column" in et or "column" in pg:
         wp = _w_section_parts(sec)
         if wp:
-            return "Beams", wp[0], "B", True
+            return "Columns", wp[0], "B", True
         hp = _hss_section_parts(sec)
         if hp:
-            return "Beams", hp[0], "B", True
-        return "Beams", "W", "B", True
+            return "Columns", hp[0], "B", True
+        return "Columns", "W", "B", True
     if "beam" in et or "rafter" in et or "girder" in et or "joist" in et:
         wp = _w_section_parts(sec)
         if wp:
@@ -190,7 +194,7 @@ def _section_display(entity: dict[str, Any], section_type: str) -> str:
         hp = _hss_section_parts(sec)
         if hp:
             return hp[1]
-    if section_type in {"PL", "HS", "L"}:
+    if section_type in {"PL", "HS", "L", "AB", "WS"}:
         return sec
     return sec
 

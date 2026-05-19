@@ -13,6 +13,8 @@ from google.genai import types
 from saddleback_pipeline.drawing_scales import (
     extract_drawing_scales,
     format_scales_for_prompt,
+    extract_view_region_scales,
+    format_view_scales_for_prompt,
     merge_scales_into_takeoff,
 )
 from saddleback_pipeline.detection_merge import (
@@ -227,6 +229,24 @@ def run_takeoff(
         if _detection_hints_meaningful(detections_accum):
             full_prompt = full_prompt + format_detection_hints_block(detections_accum)
 
+    # View-specific scales (detail bubbles) using view regions from detection payload.
+    # This helps when a page has a primary scale but details use different scales.
+    if scales_payload is not None and detections_accum is not None:
+        try:
+            view_scales = extract_view_region_scales(
+                pdf_path,
+                detections_accum,
+                margin_pt=float(os.getenv("VIEW_SCALE_MARGIN_PT", "36") or "36"),
+                max_pages=max_pages,
+            )
+            if view_scales.get("pages"):
+                full_prompt = full_prompt + "\n\n" + format_view_scales_for_prompt(view_scales)
+        except Exception as ex:
+            print(
+                f"WARNING: view-region scale extraction failed ({ex}); continuing without view-scale block.",
+                file=sys.stderr,
+            )
+
     if use_images and scales_payload is not None:
         dpi_note = (
             f"\n\nRaster pages were rendered at PDF_IMAGE_DPI={image_dpi:g} "
@@ -288,41 +308,42 @@ def run_takeoff(
     try:
         # Only ``timeout`` is portable across google-genai versions (some installs forbid
         # httpx_client / client_args on HttpOptions).
-        with genai.Client(
+        # Some google-genai versions do not implement the context manager protocol.
+        client = genai.Client(
             api_key=gemini_api_key,
             http_options=types.HttpOptions(timeout=timeout_ms),
-        ) as client:
-            if use_stream:
-                print(
-                    "Streaming response (first tokens appear sooner; total time is often similar to non-streaming).",
-                    file=sys.stderr,
-                )
-                chunks: list[str] = []
-                last_log = 0
-                for chunk in client.models.generate_content_stream(
-                    model=model,
-                    contents=contents,
-                    config=gen_cfg,
-                ):
-                    piece = chunk.text or ""
-                    if not piece:
-                        continue
-                    chunks.append(piece)
-                    total = sum(len(c) for c in chunks)
-                    if total - last_log >= 8000:
-                        print(
-                            f"  … received ~{total} characters so far",
-                            file=sys.stderr,
-                        )
-                        last_log = total
-                text = "".join(chunks).strip()
-            else:
-                response = client.models.generate_content(
-                    model=model,
-                    contents=contents,
-                    config=gen_cfg,
-                )
-                text = (response.text or "").strip()
+        )
+        if use_stream:
+            print(
+                "Streaming response (first tokens appear sooner; total time is often similar to non-streaming).",
+                file=sys.stderr,
+            )
+            chunks: list[str] = []
+            last_log = 0
+            for chunk in client.models.generate_content_stream(
+                model=model,
+                contents=contents,
+                config=gen_cfg,
+            ):
+                piece = chunk.text or ""
+                if not piece:
+                    continue
+                chunks.append(piece)
+                total = sum(len(c) for c in chunks)
+                if total - last_log >= 8000:
+                    print(
+                        f"  … received ~{total} characters so far",
+                        file=sys.stderr,
+                    )
+                    last_log = total
+            text = "".join(chunks).strip()
+        else:
+            response = client.models.generate_content(
+                model=model,
+                contents=contents,
+                config=gen_cfg,
+            )
+            text = (response.text or "").strip()
     except httpx.ReadTimeout:
         print(
             "ERROR: HTTP read timed out before Gemini finished. For long PDF runs, set "
@@ -341,6 +362,12 @@ def run_takeoff(
             data["meta"]["raster_dpi_used"] = float(
                 os.getenv("PDF_IMAGE_DPI", "400") or "400",
             )
+            # Attach view-specific scales if we computed them.
+            try:
+                if "view_scales" in locals() and isinstance(view_scales, dict) and view_scales.get("pages"):
+                    data["meta"]["view_region_scales"] = view_scales
+            except Exception:
+                pass
     if not isinstance(data, dict) or "material_summary" not in data:
         print(
             "WARNING: Response JSON should include top-level key material_summary "

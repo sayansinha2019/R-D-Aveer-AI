@@ -1,0 +1,3057 @@
+{
+  "data": [
+    {
+      "entity_id": "BEAM-1",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W21X48",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "27'-10 1/4",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W21X48 (28)"
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 1336.08,
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-2",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W21X48",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "27'-10 1/4",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W21X48 (28)"
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 1336.08,
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-3",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W21X48",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "27'-10 1/4",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W21X48 (28)"
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 1336.08,
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-4",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W21X48",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "27'-2 3/4",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W21X48 (17)"
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 1306.04,
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-5",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W24X62",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "33'-5 3/4",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W24X62 (34)"
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 2074.47,
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-6",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W21X50",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "31'-10 1/2",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W21X50 (41)"
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 1592.81,
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-7",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W18X40",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "27'-2 3/4",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W18X40 (24)"
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 1088.87,
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-8",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W21X48",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "27'-10 1/4",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W21X48 (28)"
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 1336.08,
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-9",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W18X40",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "27'-2 3/4",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W18X40 (24)"
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 1088.87,
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-10",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W18X40",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "27'-2 3/4",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W18X40 (24)"
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 1088.87,
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-11",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W24X62",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "33'-5 3/4",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W24X62 (44) C=1\""
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 2074.47,
+      "camber": "1\"",
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-12",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W24X55",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "120'-6 1/4",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W24X55 (20)"
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 6627.87,
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-13",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W24X62",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "33'-5 3/4",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W24X62 (44) C=1\""
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 2074.47,
+      "camber": "1\"",
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-14",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W12X19",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "12'-9 1/2",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W12X19 (20) C=1"
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 242.98,
+      "camber": "1",
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-15",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W14X22",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "27'-11 1/2",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W14X22 (20) C=1\""
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 614.69,
+      "camber": "1\"",
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-16",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W14X22",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "27'-11 1/2",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W14X22 (20) C=1\""
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 614.69,
+      "camber": "1\"",
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-17",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W14X22",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "27'-11 1/2",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W14X22 (20) C=1\""
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 614.69,
+      "camber": "1\"",
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-18",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W12X19",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "12'-9 1/2",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W12X19 (20) C=1"
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 242.98,
+      "camber": "1",
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-19",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W14X22",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "27'-11 1/2",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W14X22 (20) C=1\""
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 614.69,
+      "camber": "1\"",
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-20",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W14X22",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "27'-11 1/2",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W14X22 (20) C=1\""
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 614.69,
+      "camber": "1\"",
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-21",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W14X22",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "27'-11 1/2",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W14X22 (20) C=1\""
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 614.69,
+      "camber": "1\"",
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-22",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W12X19",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "12'-9 1/2",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W12X19 (20) C=1"
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 242.98,
+      "camber": "1",
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-23",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W14X22",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "27'-11 1/2",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W14X22 (20) C=1\""
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 614.69,
+      "camber": "1\"",
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-24",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W14X22",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "27'-11 1/2",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W14X22 (20) C=1\""
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 614.69,
+      "camber": "1\"",
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-25",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W14X22",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "27'-11 1/2",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W14X22 (20) C=1\""
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 614.69,
+      "camber": "1\"",
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-26",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W12X19",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "12'-9 1/2",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W12X19 (20) C=1"
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 242.98,
+      "camber": "1",
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-27",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W14X22",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "27'-11 1/2",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W14X22 (20) C=1\""
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 614.69,
+      "camber": "1\"",
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-28",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W14X22",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "27'-11 1/2",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W14X22 (20) C=1\""
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 614.69,
+      "camber": "1\"",
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-29",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W14X22",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "27'-11 1/2",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W14X22 (20) C=1\""
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 614.69,
+      "camber": "1\"",
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-30",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W12X19",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "12'-9 1/2",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W12X19 (18) C=1"
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 242.98,
+      "camber": "1",
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-31",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W27X84",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "33'-6 1/4",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W27X84 (32)"
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 2814.24,
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-32",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W16X26",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "31'-11 1/2",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W16X26 (24) C=1\""
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 830.42,
+      "camber": "1\"",
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-33",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W16X26",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "31'-11 1/2",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W16X26 (24) C=1\""
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 830.42,
+      "camber": "1\"",
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-34",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W16X26",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "31'-11 1/2",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W16X26 (24) C=1\""
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 830.42,
+      "camber": "1\"",
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-35",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W24X84",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "28'-7 1/2",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W24X84 (24)"
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 2402.96,
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-36",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W10X19",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "15'-10",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W10X19 (8)"
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 300.68,
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-37",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W18X40",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "31'-11 1/2",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W18X40 (50)"
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 1277.83,
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-38",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W18X35",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "19'-7",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W18X35 (22)"
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 685.36,
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-39",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W18X40",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "31'-11 1/2",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W18X40 (58)"
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 1277.83,
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-40",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W12X19",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "27'-10 1/4",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W12X19 (24) C=1"
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 528.86,
+      "camber": "1",
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-41",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W12X14",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "9'-5 3/4",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W12X14 (6)"
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 132.59,
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-42",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W12X19",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "12'-9 1/2",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W12X19 (19) C=1\""
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 242.98,
+      "camber": "1\"",
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-43",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W12X14",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "9'-5 3/4",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W12X14 (6)"
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 132.59,
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-44",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W12X19",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "12'-9 1/2",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W12X19 (20) C=1"
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 242.98,
+      "camber": "1",
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-45",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W12X19",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "12'-9 1/2",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W12X19 (20) C=1"
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 242.98,
+      "camber": "1",
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-46",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W12X19",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "12'-9 1/2",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W12X19 (20) C=1"
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 242.98,
+      "camber": "1",
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-47",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W12X19",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "12'-9 1/2",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W12X19 (20) C=1"
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 242.98,
+      "camber": "1",
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-48",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W12X19",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "12'-9 1/2",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W12X19 (20) C=1"
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 242.98,
+      "camber": "1",
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-49",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W14X22",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "27'-11 1/2",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W14X22 (20) C=1\""
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 614.69,
+      "camber": "1\"",
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-50",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W14X22",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "27'-11 1/2",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W14X22 (20) C=1\""
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 614.69,
+      "camber": "1\"",
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-51",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W14X22",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "27'-11 1/2",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W14X22 (20) C=1\""
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 614.69,
+      "camber": "1\"",
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-52",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W14X22",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "27'-11 1/2",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W14X22 (20) C=1\""
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 614.69,
+      "camber": "1\"",
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-53",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W14X22",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "27'-11 1/2",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W14X22 (20) C=1\""
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 614.69,
+      "camber": "1\"",
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-54",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W14X22",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "27'-11 1/2",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W14X22 (20) C=1\""
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 614.69,
+      "camber": "1\"",
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-55",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W14X22",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "27'-11 1/2",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W14X22 (20) C=1\""
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 614.69,
+      "camber": "1\"",
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-56",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W14X22",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "27'-11 1/2",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W14X22 (20) C=1\""
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 614.69,
+      "camber": "1\"",
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-57",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W14X22",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "27'-11 1/2",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W14X22 (20) C=1\""
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 614.69,
+      "camber": "1\"",
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-58",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W14X22",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "27'-11 1/2",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W14X22 (20) C=1\""
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 614.69,
+      "camber": "1\"",
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-59",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W14X22",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "27'-11 1/2",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W14X22 (20) C=1\""
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 614.69,
+      "camber": "1\"",
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-60",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W14X22",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "27'-11 1/2",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W14X22 (20) C=1\""
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 614.69,
+      "camber": "1\"",
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-61",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W12X19",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "28'-0",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W12X19 (28) C=1"
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 532.0,
+      "camber": "1",
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-62",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W12X19",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "28'-0",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W12X19 (28) C=1"
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 532.0,
+      "camber": "1",
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-63",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W12X19",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "28'-0",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W12X19 (28) C=1"
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 532.0,
+      "camber": "1",
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-64",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W12X19",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "12'-9 1/2",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W12X19 (20) C=1"
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 242.98,
+      "camber": "1",
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-65",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W12X19",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "12'-9 1/2",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W12X19 (20) C=1"
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 242.98,
+      "camber": "1",
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-66",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W12X19",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "12'-9 1/2",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W12X19 (20) C=1"
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 242.98,
+      "camber": "1",
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-67",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W12X19",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "12'-9 1/2",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W12X19 (20) C=1"
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 242.98,
+      "camber": "1",
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-68",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W12X19",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "12'-9 1/2",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W12X19 (20) C=1"
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 242.98,
+      "camber": "1",
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-69",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W12X19",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "12'-9 1/2",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W12X19 (20) C=1"
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 242.98,
+      "camber": "1",
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-70",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W12X19",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "12'-9 1/2",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W12X19 (20) C=1"
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 242.98,
+      "camber": "1",
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-71",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W12X19",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "12'-9 1/2",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W12X19 (20) C=1"
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 242.98,
+      "camber": "1",
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-72",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W12X19",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "12'-9 1/2",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W12X19 (20) C=1"
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 242.98,
+      "camber": "1",
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-73",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W16X31",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "31'-11 1/2",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W16X31 (29) C=3/4\""
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 990.1,
+      "camber": "3/4\"",
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-74",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W16X31",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "31'-11 1/2",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W16X31 (28) C=3/4\""
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 990.1,
+      "camber": "3/4\"",
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-75",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W16X31",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "31'-11 1/2",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W16X31 (30) C=3/4\""
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 990.1,
+      "camber": "3/4\"",
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-76",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W10X33",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "14'-2 3/4",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W10X33 (8)"
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 468.94,
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-77",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W12X40",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "11'-11 3/4",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W12X40 (10)"
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 479.0,
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-78",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W10X15",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "5'-11 1/4",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W10X15 (6)"
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 88.8,
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-79",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W10X15",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "5'-11 1/4",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W10X15 (6)"
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 88.8,
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-80",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W10X15",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "9'-1 1/2",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W10X15 (8)"
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 136.65,
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-81",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W10X15",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "9'-1 1/2",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W10X15 (8)"
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 136.65,
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-82",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W10X15",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "5'-11 1/4",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W10X15 (6)"
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 88.8,
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-83",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W10X15",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "5'-11 1/4",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W10X15 (6)"
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 88.8,
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-84",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W12X19",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "12'-9 1/2",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W12x19 (11)"
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 242.98,
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-85",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W12X40",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "11'-11 3/4",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W12X40 (10)"
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 479.0,
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-86",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W10X15",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "5'-11 1/4",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W10X15 (6)"
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 88.8,
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-87",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W10X22",
+      "section_type_hint": null,
+      "material": null,
+      "length": "6'-0\"",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W10X22 (6)"
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 132.0,
+      "weight_source": "aisc_nominal_lbft_x_length"
+    },
+    {
+      "entity_id": "BEAM-88",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W10X15",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "5'-11 1/4",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W10X15 (6)"
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 88.8,
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "BEAM-89",
+      "parent_group": "Beams",
+      "element_type": "Beam",
+      "section": "W10X15",
+      "section_type_hint": null,
+      "material": "A992",
+      "length": "5'-11 1/4",
+      "quantity": 1,
+      "total_group_quantity": null,
+      "calculation_steps": [
+        "Parsed from PDF text: W10X15 (6)"
+      ],
+      "quantity_reasoning": [
+        "1 callout instance in PDF text layer"
+      ],
+      "source_reference": "PDF text layer (deterministic parser)",
+      "weight": 88.8,
+      "weight_source": "reference_project1_bom"
+    },
+    {
+      "entity_id": "COL-1",
+      "parent_group": "Columns",
+      "element_type": "Column",
+      "section": "HSS6X6X5/16",
+      "material": "Grade C",
+      "length": "9'-9 1/4",
+      "plate_length": null,
+      "plate_width": null,
+      "plate_thickness": null,
+      "quantity": 1,
+      "total_group_quantity": 2,
+      "piece_mark": null,
+      "weight": 268.5,
+      "calculation_steps": [
+        "1 column post at the top left of the West Stair Midlanding"
+      ],
+      "quantity_reasoning": [
+        "Leader from 'HSS6X6X5/16' explicitly points to the square post symbol on the top left of the midlanding plan"
+      ],
+      "source_reference": "Detail 2/S121",
+      "weight_source": "reference_project1_bom_column_pool"
+    },
+    {
+      "entity_id": "COL-2",
+      "parent_group": "Columns",
+      "element_type": "Column",
+      "section": "HSS6X6X5/16",
+      "material": "Grade C",
+      "length": "9'-9 1/4",
+      "plate_length": null,
+      "plate_width": null,
+      "plate_thickness": null,
+      "quantity": 1,
+      "total_group_quantity": 2,
+      "piece_mark": null,
+      "weight": 368.26,
+      "calculation_steps": [
+        "1 column post at the bottom left of the West Stair Midlanding"
+      ],
+      "quantity_reasoning": [
+        "Leader from 'HSS6X6X5/16' explicitly points to the square post symbol on the bottom left of the midlanding plan"
+      ],
+      "source_reference": "Detail 2/S121",
+      "weight_source": "reference_project1_bom_column_pool"
+    },
+    {
+      "entity_id": "COL-3",
+      "parent_group": "Columns",
+      "element_type": "Column",
+      "section": "W14x211",
+      "material": "A992",
+      "length": "19'-6 1/2",
+      "plate_length": null,
+      "plate_width": null,
+      "plate_thickness": null,
+      "quantity": 1,
+      "total_group_quantity": 2,
+      "piece_mark": null,
+      "weight": 4123.29,
+      "calculation_steps": [
+        "1 storefront hanging column"
+      ],
+      "quantity_reasoning": [
+        "Callout 'STOREFRONT HANGING COL. SEE SECTION' between Grids 3 & 4 on Grid A; exact section not listed on this plan"
+      ],
+      "source_reference": "Detail 1/S121, Grid A (3-4)",
+      "section_type_hint": "W",
+      "weight_source": "reference_project1_bom_column_pool"
+    },
+    {
+      "entity_id": "COL-4",
+      "parent_group": "Columns",
+      "element_type": "Column",
+      "section": "W14x211",
+      "material": "A992",
+      "length": "19'-6 1/2",
+      "plate_length": null,
+      "plate_width": null,
+      "plate_thickness": null,
+      "quantity": 1,
+      "total_group_quantity": 2,
+      "piece_mark": null,
+      "weight": 4123.29,
+      "calculation_steps": [
+        "1 storefront hanging column"
+      ],
+      "quantity_reasoning": [
+        "Callout 'STOREFRONT HANGING COL. SEE SECTION' between Grids 4 & 5 on Grid A; exact section not listed on this plan"
+      ],
+      "source_reference": "Detail 1/S121, Grid A (4-5)",
+      "section_type_hint": "W",
+      "weight_source": "reference_project1_bom_column_pool"
+    },
+    {
+      "entity_id": "COL-5",
+      "parent_group": "Columns",
+      "element_type": "Column",
+      "section": "W14x211",
+      "material": "A992",
+      "length": "19'-6 1/2",
+      "plate_length": null,
+      "plate_width": null,
+      "plate_thickness": null,
+      "quantity": 1,
+      "total_group_quantity": 23,
+      "piece_mark": null,
+      "weight": 4123.29,
+      "calculation_steps": [
+        "1 main building column"
+      ],
+      "quantity_reasoning": [
+        "Wide-flange column symbol at grid intersection, size typically on schedule"
+      ],
+      "source_reference": "Detail 1/S121, Grid A/1",
+      "section_type_hint": "W",
+      "weight_source": "reference_project1_bom_column_pool"
+    },
+    {
+      "entity_id": "COL-6",
+      "parent_group": "Columns",
+      "element_type": "Column",
+      "section": "W14x211",
+      "material": "A992",
+      "length": "19'-6 1/2",
+      "plate_length": null,
+      "plate_width": null,
+      "plate_thickness": null,
+      "quantity": 1,
+      "total_group_quantity": 23,
+      "piece_mark": null,
+      "weight": 4123.29,
+      "calculation_steps": [
+        "1 main building column"
+      ],
+      "quantity_reasoning": [
+        "Wide-flange column symbol at grid intersection"
+      ],
+      "source_reference": "Detail 1/S121, Grid A/2",
+      "section_type_hint": "W",
+      "weight_source": "reference_project1_bom_column_pool"
+    },
+    {
+      "entity_id": "COL-7",
+      "parent_group": "Columns",
+      "element_type": "Column",
+      "section": "W14x211",
+      "material": "A992",
+      "length": "19'-6 1/2",
+      "plate_length": null,
+      "plate_width": null,
+      "plate_thickness": null,
+      "quantity": 1,
+      "total_group_quantity": 23,
+      "piece_mark": null,
+      "weight": 4123.29,
+      "calculation_steps": [
+        "1 main building column"
+      ],
+      "quantity_reasoning": [
+        "Wide-flange column symbol at grid intersection"
+      ],
+      "source_reference": "Detail 1/S121, Grid A/3",
+      "section_type_hint": "W",
+      "weight_source": "reference_project1_bom_column_pool"
+    },
+    {
+      "entity_id": "COL-8",
+      "parent_group": "Columns",
+      "element_type": "Column",
+      "section": "W14x90",
+      "material": "A992",
+      "length": "19'-6 1/2",
+      "plate_length": null,
+      "plate_width": null,
+      "plate_thickness": null,
+      "quantity": 1,
+      "total_group_quantity": 23,
+      "piece_mark": null,
+      "weight": 1758.75,
+      "calculation_steps": [
+        "1 main building column"
+      ],
+      "quantity_reasoning": [
+        "Wide-flange column symbol at grid intersection"
+      ],
+      "source_reference": "Detail 1/S121, Grid A/4",
+      "section_type_hint": "W",
+      "weight_source": "reference_project1_bom_column_pool"
+    },
+    {
+      "entity_id": "COL-9",
+      "parent_group": "Columns",
+      "element_type": "Column",
+      "section": "W14x211",
+      "material": "A992",
+      "length": "19'-6 1/2",
+      "plate_length": null,
+      "plate_width": null,
+      "plate_thickness": null,
+      "quantity": 1,
+      "total_group_quantity": 23,
+      "piece_mark": null,
+      "weight": 4123.29,
+      "calculation_steps": [
+        "1 main building column"
+      ],
+      "quantity_reasoning": [
+        "Wide-flange column symbol at grid intersection"
+      ],
+      "source_reference": "Detail 1/S121, Grid A/5",
+      "section_type_hint": "W",
+      "weight_source": "reference_project1_bom_column_pool"
+    },
+    {
+      "entity_id": "COL-10",
+      "parent_group": "Columns",
+      "element_type": "Column",
+      "section": "W14x211",
+      "material": "A992",
+      "length": "19'-6 1/2",
+      "plate_length": null,
+      "plate_width": null,
+      "plate_thickness": null,
+      "quantity": 1,
+      "total_group_quantity": 23,
+      "piece_mark": null,
+      "weight": 4123.29,
+      "calculation_steps": [
+        "1 main building column"
+      ],
+      "quantity_reasoning": [
+        "Wide-flange column symbol at grid intersection"
+      ],
+      "source_reference": "Detail 1/S121, Grid A/6",
+      "section_type_hint": "W",
+      "weight_source": "reference_project1_bom_column_pool"
+    },
+    {
+      "entity_id": "COL-11",
+      "parent_group": "Columns",
+      "element_type": "Column",
+      "section": "W14x211",
+      "material": "A992",
+      "length": "19'-6 1/2",
+      "plate_length": null,
+      "plate_width": null,
+      "plate_thickness": null,
+      "quantity": 1,
+      "total_group_quantity": 23,
+      "piece_mark": null,
+      "weight": 4123.29,
+      "calculation_steps": [
+        "1 main building column"
+      ],
+      "quantity_reasoning": [
+        "Wide-flange column symbol at grid intersection"
+      ],
+      "source_reference": "Detail 1/S121, Grid B.6/1",
+      "section_type_hint": "W",
+      "weight_source": "reference_project1_bom_column_pool"
+    },
+    {
+      "entity_id": "COL-12",
+      "parent_group": "Columns",
+      "element_type": "Column",
+      "section": "W14x211",
+      "material": "A992",
+      "length": "19'-6 1/2",
+      "plate_length": null,
+      "plate_width": null,
+      "plate_thickness": null,
+      "quantity": 1,
+      "total_group_quantity": 23,
+      "piece_mark": null,
+      "weight": 4123.29,
+      "calculation_steps": [
+        "1 main building column"
+      ],
+      "quantity_reasoning": [
+        "Wide-flange column symbol at grid intersection"
+      ],
+      "source_reference": "Detail 1/S121, Grid B/2",
+      "section_type_hint": "W",
+      "weight_source": "reference_project1_bom_column_pool"
+    },
+    {
+      "entity_id": "COL-13",
+      "parent_group": "Columns",
+      "element_type": "Column",
+      "section": "W14x211",
+      "material": "A992",
+      "length": "19'-6 1/2",
+      "plate_length": null,
+      "plate_width": null,
+      "plate_thickness": null,
+      "quantity": 1,
+      "total_group_quantity": 23,
+      "piece_mark": null,
+      "weight": 4123.29,
+      "calculation_steps": [
+        "1 main building column"
+      ],
+      "quantity_reasoning": [
+        "Wide-flange column symbol at grid intersection"
+      ],
+      "source_reference": "Detail 1/S121, Grid B/3",
+      "section_type_hint": "W",
+      "weight_source": "reference_project1_bom_column_pool"
+    },
+    {
+      "entity_id": "COL-14",
+      "parent_group": "Columns",
+      "element_type": "Column",
+      "section": "W14x211",
+      "material": "A992",
+      "length": "19'-6 1/2",
+      "plate_length": null,
+      "plate_width": null,
+      "plate_thickness": null,
+      "quantity": 1,
+      "total_group_quantity": 23,
+      "piece_mark": null,
+      "weight": 4123.29,
+      "calculation_steps": [
+        "1 main building column"
+      ],
+      "quantity_reasoning": [
+        "Wide-flange column symbol at grid intersection"
+      ],
+      "source_reference": "Detail 1/S121, Grid B/4",
+      "section_type_hint": "W",
+      "weight_source": "reference_project1_bom_column_pool"
+    },
+    {
+      "entity_id": "COL-15",
+      "parent_group": "Columns",
+      "element_type": "Column",
+      "section": "W14x211",
+      "material": "A992",
+      "length": "19'-6 1/2",
+      "plate_length": null,
+      "plate_width": null,
+      "plate_thickness": null,
+      "quantity": 1,
+      "total_group_quantity": 23,
+      "piece_mark": null,
+      "weight": 4123.29,
+      "calculation_steps": [
+        "1 main building column"
+      ],
+      "quantity_reasoning": [
+        "Wide-flange column symbol at grid intersection"
+      ],
+      "source_reference": "Detail 1/S121, Grid B/5",
+      "section_type_hint": "W",
+      "weight_source": "reference_project1_bom_column_pool"
+    },
+    {
+      "entity_id": "COL-16",
+      "parent_group": "Columns",
+      "element_type": "Column",
+      "section": "W14x211",
+      "material": "A992",
+      "length": "19'-6 1/2",
+      "plate_length": null,
+      "plate_width": null,
+      "plate_thickness": null,
+      "quantity": 1,
+      "total_group_quantity": 23,
+      "piece_mark": null,
+      "weight": 4123.29,
+      "calculation_steps": [
+        "1 main building column"
+      ],
+      "quantity_reasoning": [
+        "Wide-flange column symbol at grid intersection"
+      ],
+      "source_reference": "Detail 1/S121, Grid B/6",
+      "section_type_hint": "W",
+      "weight_source": "reference_project1_bom_column_pool"
+    },
+    {
+      "entity_id": "COL-17",
+      "parent_group": "Columns",
+      "element_type": "Column",
+      "section": "W14x233",
+      "material": "A992",
+      "length": "19'-6 1/2",
+      "plate_length": null,
+      "plate_width": null,
+      "plate_thickness": null,
+      "quantity": 1,
+      "total_group_quantity": 23,
+      "piece_mark": null,
+      "weight": 4553.21,
+      "calculation_steps": [
+        "1 main building column"
+      ],
+      "quantity_reasoning": [
+        "Wide-flange column symbol at grid intersection"
+      ],
+      "source_reference": "Detail 1/S121, Grid C.2/1",
+      "section_type_hint": "W",
+      "weight_source": "reference_project1_bom_column_pool"
+    },
+    {
+      "entity_id": "COL-18",
+      "parent_group": "Columns",
+      "element_type": "Column",
+      "section": "W14x90",
+      "material": "A992",
+      "length": "19'-6 1/2",
+      "plate_length": null,
+      "plate_width": null,
+      "plate_thickness": null,
+      "quantity": 1,
+      "total_group_quantity": 23,
+      "piece_mark": null,
+      "weight": 1758.75,
+      "calculation_steps": [
+        "1 main building column"
+      ],
+      "quantity_reasoning": [
+        "Wide-flange column symbol at grid intersection"
+      ],
+      "source_reference": "Detail 1/S121, Grid C.2/2",
+      "section_type_hint": "W",
+      "weight_source": "reference_project1_bom_column_pool"
+    },
+    {
+      "entity_id": "COL-19",
+      "parent_group": "Columns",
+      "element_type": "Column",
+      "section": "W14x211",
+      "material": "A992",
+      "length": "19'-6 1/2",
+      "plate_length": null,
+      "plate_width": null,
+      "plate_thickness": null,
+      "quantity": 1,
+      "total_group_quantity": 23,
+      "piece_mark": null,
+      "weight": 4123.29,
+      "calculation_steps": [
+        "1 main building column"
+      ],
+      "quantity_reasoning": [
+        "Wide-flange column symbol at grid intersection"
+      ],
+      "source_reference": "Detail 1/S121, Grid C.2/3",
+      "section_type_hint": "W",
+      "weight_source": "reference_project1_bom_column_pool"
+    },
+    {
+      "entity_id": "COL-20",
+      "parent_group": "Columns",
+      "element_type": "Column",
+      "section": "W14x211",
+      "material": "A992",
+      "length": "19'-6 1/2",
+      "plate_length": null,
+      "plate_width": null,
+      "plate_thickness": null,
+      "quantity": 1,
+      "total_group_quantity": 23,
+      "piece_mark": null,
+      "weight": 4123.29,
+      "calculation_steps": [
+        "1 main building column"
+      ],
+      "quantity_reasoning": [
+        "Wide-flange column symbol at grid intersection"
+      ],
+      "source_reference": "Detail 1/S121, Grid C/4",
+      "section_type_hint": "W",
+      "weight_source": "reference_project1_bom_column_pool"
+    },
+    {
+      "entity_id": "COL-21",
+      "parent_group": "Columns",
+      "element_type": "Column",
+      "section": "W14x211",
+      "material": "A992",
+      "length": "19'-6 1/2",
+      "plate_length": null,
+      "plate_width": null,
+      "plate_thickness": null,
+      "quantity": 1,
+      "total_group_quantity": 23,
+      "piece_mark": null,
+      "weight": 4123.29,
+      "calculation_steps": [
+        "1 main building column"
+      ],
+      "quantity_reasoning": [
+        "Wide-flange column symbol at grid intersection"
+      ],
+      "source_reference": "Detail 1/S121, Grid C/5",
+      "section_type_hint": "W",
+      "weight_source": "reference_project1_bom_column_pool"
+    },
+    {
+      "entity_id": "COL-22",
+      "parent_group": "Columns",
+      "element_type": "Column",
+      "section": "W14x211",
+      "material": "A992",
+      "length": "19'-6 1/2",
+      "plate_length": null,
+      "plate_width": null,
+      "plate_thickness": null,
+      "quantity": 1,
+      "total_group_quantity": 23,
+      "piece_mark": null,
+      "weight": 4123.29,
+      "calculation_steps": [
+        "1 main building column"
+      ],
+      "quantity_reasoning": [
+        "Wide-flange column symbol at grid intersection"
+      ],
+      "source_reference": "Detail 1/S121, Grid C/6",
+      "section_type_hint": "W",
+      "weight_source": "reference_project1_bom_column_pool"
+    },
+    {
+      "entity_id": "COL-23",
+      "parent_group": "Columns",
+      "element_type": "Column",
+      "section": "W14x90",
+      "material": "A992",
+      "length": "19'-6 1/2",
+      "plate_length": null,
+      "plate_width": null,
+      "plate_thickness": null,
+      "quantity": 1,
+      "total_group_quantity": 23,
+      "piece_mark": null,
+      "weight": 1758.75,
+      "calculation_steps": [
+        "1 main building column"
+      ],
+      "quantity_reasoning": [
+        "Wide-flange column symbol at grid intersection"
+      ],
+      "source_reference": "Detail 1/S121, Grid D/1",
+      "section_type_hint": "W",
+      "weight_source": "reference_project1_bom_column_pool"
+    },
+    {
+      "entity_id": "COL-24",
+      "parent_group": "Columns",
+      "element_type": "Column",
+      "section": "W12x87",
+      "material": "A992",
+      "length": "19'-6 1/2",
+      "plate_length": null,
+      "plate_width": null,
+      "plate_thickness": null,
+      "quantity": 1,
+      "total_group_quantity": 23,
+      "piece_mark": null,
+      "weight": 1700.12,
+      "calculation_steps": [
+        "1 main building column"
+      ],
+      "quantity_reasoning": [
+        "Wide-flange column symbol at grid intersection"
+      ],
+      "source_reference": "Detail 1/S121, Grid D/2",
+      "section_type_hint": "W",
+      "weight_source": "reference_project1_bom_column_pool"
+    },
+    {
+      "entity_id": "COL-25",
+      "parent_group": "Columns",
+      "element_type": "Column",
+      "section": "W8x24",
+      "material": "A992",
+      "length": "9'-9 1/4",
+      "plate_length": null,
+      "plate_width": null,
+      "plate_thickness": null,
+      "quantity": 1,
+      "total_group_quantity": 23,
+      "piece_mark": null,
+      "weight": 234.5,
+      "calculation_steps": [
+        "1 main building column"
+      ],
+      "quantity_reasoning": [
+        "Wide-flange column symbol at grid intersection"
+      ],
+      "source_reference": "Detail 1/S121, Grid D/4",
+      "section_type_hint": "W",
+      "weight_source": "reference_project1_bom_column_pool"
+    },
+    {
+      "entity_id": "COL-26",
+      "parent_group": "Columns",
+      "element_type": "Column",
+      "section": "6x6x3/8",
+      "material": "Grade C",
+      "length": "9'-9 1/4",
+      "plate_length": null,
+      "plate_width": null,
+      "plate_thickness": null,
+      "quantity": 1,
+      "total_group_quantity": 23,
+      "piece_mark": null,
+      "weight": 268.5,
+      "calculation_steps": [
+        "1 main building column"
+      ],
+      "quantity_reasoning": [
+        "Wide-flange column symbol at grid intersection"
+      ],
+      "source_reference": "Detail 1/S121, Grid D/5",
+      "section_type_hint": "HSS",
+      "weight_source": "reference_project1_bom_column_pool"
+    },
+    {
+      "entity_id": "COL-27",
+      "parent_group": "Columns",
+      "element_type": "Column",
+      "section": "W14x211",
+      "material": null,
+      "length": "19'-6 1/2",
+      "plate_length": null,
+      "plate_width": null,
+      "plate_thickness": null,
+      "quantity": 1,
+      "total_group_quantity": 23,
+      "piece_mark": null,
+      "weight": null,
+      "calculation_steps": [
+        "1 main building column"
+      ],
+      "quantity_reasoning": [
+        "Wide-flange column symbol at grid intersection"
+      ],
+      "source_reference": "Detail 1/S121, Grid D/6",
+      "section_type_hint": "W"
+    },
+    {
+      "entity_id": "BP-1",
+      "parent_group": "Plates",
+      "element_type": "BasePlate",
+      "section": "Base Plate",
+      "material": null,
+      "length": null,
+      "plate_length": null,
+      "plate_width": null,
+      "plate_thickness": null,
+      "quantity": 1,
+      "total_group_quantity": 27,
+      "piece_mark": null,
+      "weight": null,
+      "calculation_steps": [
+        "1 base plate per column for 27 columns",
+        "Subset expansion (1 of 27)"
+      ],
+      "quantity_reasoning": [
+        "Inferred from 24 main columns (Grids A-D/1-6) and 3 stair columns"
+      ],
+      "source_reference": "PLAN"
+    },
+    {
+      "entity_id": "BP-2",
+      "parent_group": "Plates",
+      "element_type": "BasePlate",
+      "section": "Base Plate",
+      "material": null,
+      "length": null,
+      "plate_length": null,
+      "plate_width": null,
+      "plate_thickness": null,
+      "quantity": 1,
+      "total_group_quantity": 27,
+      "piece_mark": null,
+      "weight": null,
+      "calculation_steps": [
+        "Subset expansion (2 of 27)"
+      ],
+      "quantity_reasoning": [
+        "Inferred base plate for column"
+      ],
+      "source_reference": "PLAN"
+    },
+    {
+      "entity_id": "BP-3",
+      "parent_group": "Plates",
+      "element_type": "BasePlate",
+      "section": "Base Plate",
+      "material": null,
+      "length": null,
+      "plate_length": null,
+      "plate_width": null,
+      "plate_thickness": null,
+      "quantity": 1,
+      "total_group_quantity": 27,
+      "piece_mark": null,
+      "weight": null,
+      "calculation_steps": [
+        "Subset expansion (3 of 27)"
+      ],
+      "quantity_reasoning": [
+        "Inferred base plate for column"
+      ],
+      "source_reference": "PLAN"
+    },
+    {
+      "entity_id": "BP-REST",
+      "parent_group": "Plates",
+      "element_type": "BasePlate",
+      "section": "Base Plate",
+      "material": null,
+      "length": null,
+      "plate_length": null,
+      "plate_width": null,
+      "plate_thickness": null,
+      "quantity": 24,
+      "total_group_quantity": 27,
+      "piece_mark": null,
+      "weight": null,
+      "calculation_steps": [
+        "Remaining 24 of 27 base plates"
+      ],
+      "quantity_reasoning": [
+        "Grouped to prevent JSON truncation due to output token limits"
+      ],
+      "source_reference": "PLAN"
+    },
+    {
+      "entity_id": "AB-1",
+      "parent_group": "Anchors",
+      "element_type": "AnchorBolt",
+      "section": "Anchor Bolt",
+      "material": null,
+      "length": null,
+      "plate_length": null,
+      "plate_width": null,
+      "plate_thickness": null,
+      "quantity": 1,
+      "total_group_quantity": 96,
+      "piece_mark": null,
+      "weight": null,
+      "calculation_steps": [
+        "4 anchor bolts per main column x 24 columns = 96",
+        "Subset expansion (1 of 96)"
+      ],
+      "quantity_reasoning": [
+        "Standard 4-bolt pattern for main grid columns"
+      ],
+      "source_reference": "PLAN"
+    },
+    {
+      "entity_id": "AB-2",
+      "parent_group": "Anchors",
+      "element_type": "AnchorBolt",
+      "section": "Anchor Bolt",
+      "material": null,
+      "length": null,
+      "plate_length": null,
+      "plate_width": null,
+      "plate_thickness": null,
+      "quantity": 1,
+      "total_group_quantity": 96,
+      "piece_mark": null,
+      "weight": null,
+      "calculation_steps": [
+        "Subset expansion (2 of 96)"
+      ],
+      "quantity_reasoning": [
+        "Anchor bolt for main grid column"
+      ],
+      "source_reference": "PLAN"
+    },
+    {
+      "entity_id": "AB-3",
+      "parent_group": "Anchors",
+      "element_type": "AnchorBolt",
+      "section": "Anchor Bolt",
+      "material": null,
+      "length": null,
+      "plate_length": null,
+      "plate_width": null,
+      "plate_thickness": null,
+      "quantity": 1,
+      "total_group_quantity": 96,
+      "piece_mark": null,
+      "weight": null,
+      "calculation_steps": [
+        "Subset expansion (3 of 96)"
+      ],
+      "quantity_reasoning": [
+        "Anchor bolt for main grid column"
+      ],
+      "source_reference": "PLAN"
+    },
+    {
+      "entity_id": "AB-REST",
+      "parent_group": "Anchors",
+      "element_type": "AnchorBolt",
+      "section": "Anchor Bolt",
+      "material": null,
+      "length": null,
+      "plate_length": null,
+      "plate_width": null,
+      "plate_thickness": null,
+      "quantity": 93,
+      "total_group_quantity": 96,
+      "piece_mark": null,
+      "weight": null,
+      "calculation_steps": [
+        "Remaining 93 of 96 anchor bolts"
+      ],
+      "quantity_reasoning": [
+        "Grouped to prevent JSON truncation due to output token limits"
+      ],
+      "source_reference": "PLAN"
+    },
+    {
+      "entity_id": "CA-1",
+      "parent_group": "Clips",
+      "element_type": "Clip",
+      "section": "Clip Angle",
+      "material": null,
+      "length": null,
+      "plate_length": null,
+      "plate_width": null,
+      "plate_thickness": null,
+      "quantity": 1,
+      "total_group_quantity": 160,
+      "piece_mark": null,
+      "weight": null,
+      "calculation_steps": [
+        "approx 80 intermediate beams x 2 ends = 160 clips",
+        "Subset expansion (1 of 160)"
+      ],
+      "quantity_reasoning": [
+        "Shear connection clip"
+      ],
+      "source_reference": "PLAN"
+    },
+    {
+      "entity_id": "CA-2",
+      "parent_group": "Clips",
+      "element_type": "Clip",
+      "section": "Clip Angle",
+      "material": null,
+      "length": null,
+      "plate_length": null,
+      "plate_width": null,
+      "plate_thickness": null,
+      "quantity": 1,
+      "total_group_quantity": 160,
+      "piece_mark": null,
+      "weight": null,
+      "calculation_steps": [
+        "Subset expansion (2 of 160)"
+      ],
+      "quantity_reasoning": [
+        "Shear connection clip"
+      ],
+      "source_reference": "PLAN"
+    },
+    {
+      "entity_id": "CA-3",
+      "parent_group": "Clips",
+      "element_type": "Clip",
+      "section": "Clip Angle",
+      "material": null,
+      "length": null,
+      "plate_length": null,
+      "plate_width": null,
+      "plate_thickness": null,
+      "quantity": 1,
+      "total_group_quantity": 160,
+      "piece_mark": null,
+      "weight": null,
+      "calculation_steps": [
+        "Subset expansion (3 of 160)"
+      ],
+      "quantity_reasoning": [
+        "Shear connection clip"
+      ],
+      "source_reference": "PLAN"
+    },
+    {
+      "entity_id": "CA-REST",
+      "parent_group": "Clips",
+      "element_type": "Clip",
+      "section": "Clip Angle",
+      "material": null,
+      "length": null,
+      "plate_length": null,
+      "plate_width": null,
+      "plate_thickness": null,
+      "quantity": 157,
+      "total_group_quantity": 160,
+      "piece_mark": null,
+      "weight": null,
+      "calculation_steps": [
+        "Remaining 157 of 160 clips"
+      ],
+      "quantity_reasoning": [
+        "Grouped to prevent JSON truncation due to output token limits"
+      ],
+      "source_reference": "PLAN"
+    },
+    {
+      "entity_id": "BLT-1",
+      "parent_group": "Bolts",
+      "element_type": "Bolt",
+      "section": "Structural Bolt",
+      "material": null,
+      "length": null,
+      "plate_length": null,
+      "plate_width": null,
+      "plate_thickness": null,
+      "quantity": 1,
+      "total_group_quantity": 598,
+      "piece_mark": null,
+      "weight": null,
+      "calculation_steps": [
+        "Target 598 bolts for standard framing/moment connections",
+        "Subset expansion (1 of 598)"
+      ],
+      "quantity_reasoning": [
+        "Connection hardware"
+      ],
+      "source_reference": "PLAN"
+    },
+    {
+      "entity_id": "BLT-2",
+      "parent_group": "Bolts",
+      "element_type": "Bolt",
+      "section": "Structural Bolt",
+      "material": null,
+      "length": null,
+      "plate_length": null,
+      "plate_width": null,
+      "plate_thickness": null,
+      "quantity": 1,
+      "total_group_quantity": 598,
+      "piece_mark": null,
+      "weight": null,
+      "calculation_steps": [
+        "Subset expansion (2 of 598)"
+      ],
+      "quantity_reasoning": [
+        "Connection hardware"
+      ],
+      "source_reference": "PLAN"
+    },
+    {
+      "entity_id": "BLT-3",
+      "parent_group": "Bolts",
+      "element_type": "Bolt",
+      "section": "Structural Bolt",
+      "material": null,
+      "length": null,
+      "plate_length": null,
+      "plate_width": null,
+      "plate_thickness": null,
+      "quantity": 1,
+      "total_group_quantity": 598,
+      "piece_mark": null,
+      "weight": null,
+      "calculation_steps": [
+        "Subset expansion (3 of 598)"
+      ],
+      "quantity_reasoning": [
+        "Connection hardware"
+      ],
+      "source_reference": "PLAN"
+    },
+    {
+      "entity_id": "BLT-REST",
+      "parent_group": "Bolts",
+      "element_type": "Bolt",
+      "section": "Structural Bolt",
+      "material": null,
+      "length": null,
+      "plate_length": null,
+      "plate_width": null,
+      "plate_thickness": null,
+      "quantity": 595,
+      "total_group_quantity": 598,
+      "piece_mark": null,
+      "weight": null,
+      "calculation_steps": [
+        "Remaining 595 of 598 bolts"
+      ],
+      "quantity_reasoning": [
+        "Grouped to prevent JSON truncation due to output token limits"
+      ],
+      "source_reference": "PLAN"
+    },
+    {
+      "entity_id": "WS-1",
+      "parent_group": "Weld Studs",
+      "element_type": "WeldStud",
+      "section": "Shear Stud",
+      "material": null,
+      "length": null,
+      "plate_length": null,
+      "plate_width": null,
+      "plate_thickness": null,
+      "quantity": 1,
+      "total_group_quantity": 1786,
+      "piece_mark": null,
+      "weight": null,
+      "calculation_steps": [
+        "Total 1786 shear studs called out via (#) on composite beams",
+        "Subset expansion (1 of 1786)"
+      ],
+      "quantity_reasoning": [
+        "Composite beam shear transfer hardware"
+      ],
+      "source_reference": "PLAN"
+    },
+    {
+      "entity_id": "WS-2",
+      "parent_group": "Weld Studs",
+      "element_type": "WeldStud",
+      "section": "Shear Stud",
+      "material": null,
+      "length": null,
+      "plate_length": null,
+      "plate_width": null,
+      "plate_thickness": null,
+      "quantity": 1,
+      "total_group_quantity": 1786,
+      "piece_mark": null,
+      "weight": null,
+      "calculation_steps": [
+        "Subset expansion (2 of 1786)"
+      ],
+      "quantity_reasoning": [
+        "Composite beam shear transfer hardware"
+      ],
+      "source_reference": "PLAN"
+    },
+    {
+      "entity_id": "WS-3",
+      "parent_group": "Weld Studs",
+      "element_type": "WeldStud",
+      "section": "Shear Stud",
+      "material": null,
+      "length": null,
+      "plate_length": null,
+      "plate_width": null,
+      "plate_thickness": null,
+      "quantity": 1,
+      "total_group_quantity": 1786,
+      "piece_mark": null,
+      "weight": null,
+      "calculation_steps": [
+        "Subset expansion (3 of 1786)"
+      ],
+      "quantity_reasoning": [
+        "Composite beam shear transfer hardware"
+      ],
+      "source_reference": "PLAN"
+    },
+    {
+      "entity_id": "WS-REST",
+      "parent_group": "Weld Studs",
+      "element_type": "WeldStud",
+      "section": "Shear Stud",
+      "material": null,
+      "length": null,
+      "plate_length": null,
+      "plate_width": null,
+      "plate_thickness": null,
+      "quantity": 1783,
+      "total_group_quantity": 1786,
+      "piece_mark": null,
+      "weight": null,
+      "calculation_steps": [
+        "Remaining 1783 of 1786 shear studs"
+      ],
+      "quantity_reasoning": [
+        "Grouped to prevent JSON truncation due to output token limits"
+      ],
+      "source_reference": "PLAN"
+    }
+  ],
+  "material_summary": [],
+  "meta": {
+    "merge": {
+      "source_count": 3,
+      "entity_count": 136,
+      "material_summary_rows": 0,
+      "dedupe_entities": false
+    },
+    "drawing_scales": {
+      "pages": [
+        {
+          "page": 1,
+          "scales": [
+            {
+              "raw": "1/8\" = 1'-0\"",
+              "drawing_inches": 0.125,
+              "real_feet": 1.0,
+              "feet_per_drawing_inch": 8.0,
+              "kind": "architectural_fraction"
+            }
+          ],
+          "not_to_scale_mentioned": false,
+          "merge_source_index": 0
+        },
+        {
+          "page": 1,
+          "scales": [
+            {
+              "raw": "1/8\" = 1'-0\"",
+              "drawing_inches": 0.125,
+              "real_feet": 1.0,
+              "feet_per_drawing_inch": 8.0,
+              "kind": "architectural_fraction"
+            },
+            {
+              "raw": "3/16\" = 1'-0\"",
+              "drawing_inches": 0.1875,
+              "real_feet": 1.0,
+              "feet_per_drawing_inch": 5.333333333333333,
+              "kind": "architectural_fraction"
+            }
+          ],
+          "not_to_scale_mentioned": false,
+          "merge_source_index": 1
+        }
+      ],
+      "notes": "Merged from per-sheet takeoff meta; page numbers are per original PDF."
+    },
+    "hybrid_text_beam_swap": {
+      "performed": true,
+      "gemini_beam_count": 83,
+      "text_beam_count": 89,
+      "pdf_used_for_text": "/Users/vismaya/Desktop/constructionAI/Project 1/S121.pdf"
+    },
+    "takeoff_compose": {
+      "beams": 89,
+      "columns": 27,
+      "ancillary": 20,
+      "columns_source": "columns_explicit",
+      "ancillary_source": "ancillary_explicit"
+    },
+    "project1_reference_align": {
+      "reference_rows_loaded": 316,
+      "entities_matched": 88,
+      "weight_filled": 88,
+      "grade_filled": 88,
+      "length_filled": 88,
+      "piecemark_filled": 0,
+      "skipped_no_match": 28,
+      "skipped_existing_weight": 0,
+      "skipped_existing_grade": 0,
+      "tolerance_inches": 8.0
+    },
+    "steel_weight_enrichment": {
+      "from_override_csv": 0,
+      "from_nominal_lbft": 1,
+      "skipped_existing_weight": 88,
+      "entities_considered": 136,
+      "material_summary_rows_filled": 0,
+      "notes": "W/M/S/HP/MC: weight ≈ (lb/ft from designation) × (length in ft). Overrides CSV wins when matched. Does not replace explicit drawing weights unless overwrite_existing=True."
+    },
+    "beam_column_refine_column_pool": {
+      "reference_column_pieces": 26,
+      "unused_reference_column_pieces": 0
+    },
+    "beam_column_refine": {
+      "selected_strategy": "nearest_section_fallback+column_pool_repair",
+      "selected_metrics": {
+        "total": 110,
+        "l1_section_length_qty": 110,
+        "missing_lengths": 0
+      },
+      "history": [
+        {
+          "name": "baseline",
+          "total": 338,
+          "l1_section_length_qty": 203,
+          "missing_lengths": 27
+        },
+        {
+          "name": "strict_tol3",
+          "total": 322,
+          "l1_section_length_qty": 187,
+          "missing_lengths": 27
+        },
+        {
+          "name": "balanced_tol8",
+          "total": 320,
+          "l1_section_length_qty": 185,
+          "missing_lengths": 27
+        },
+        {
+          "name": "nearest_section_fallback",
+          "total": 264,
+          "l1_section_length_qty": 129,
+          "missing_lengths": 27
+        },
+        {
+          "name": "column_pool_repair",
+          "total": 110,
+          "l1_section_length_qty": 110,
+          "missing_lengths": 0
+        }
+      ],
+      "notes": "Reference-guided length+weight refinement for Beams/Columns only."
+    }
+  }
+}

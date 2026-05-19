@@ -18,6 +18,8 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
 
+import fitz  # PyMuPDF
+
 from saddleback_pipeline.pdf_text import get_pdf_page_texts
 
 # ---------------------------------------------------------------------------
@@ -292,6 +294,158 @@ def extract_drawing_scales(
             "Prefer written dimensions on the sheet when present."
         ),
     }
+
+
+def _norm_bbox_to_pdf_rect(page: fitz.Page, bbox: dict[str, Any]) -> fitz.Rect | None:
+    """Convert normalized [0..1] bbox to PDF point rect (page coordinates)."""
+    try:
+        x0n = float(bbox["x_min"])
+        y0n = float(bbox["y_min"])
+        x1n = float(bbox["x_max"])
+        y1n = float(bbox["y_max"])
+    except (KeyError, TypeError, ValueError):
+        return None
+    w, h = float(page.rect.width), float(page.rect.height)
+    x0, y0 = max(0.0, min(w, x0n * w)), max(0.0, min(h, y0n * h))
+    x1, y1 = max(0.0, min(w, x1n * w)), max(0.0, min(h, y1n * h))
+    if x1 <= x0 or y1 <= y0:
+        return None
+    return fitz.Rect(x0, y0, x1, y1)
+
+
+def _expand_rect(page: fitz.Page, rect: fitz.Rect, margin_pt: float) -> fitz.Rect:
+    if margin_pt <= 0:
+        return rect
+    r = fitz.Rect(
+        rect.x0 - margin_pt,
+        rect.y0 - margin_pt,
+        rect.x1 + margin_pt,
+        rect.y1 + margin_pt,
+    )
+    # Clip to page
+    return r & page.rect
+
+
+def extract_view_region_scales(
+    pdf_path: Path,
+    detections_payload: dict[str, Any],
+    *,
+    margin_pt: float = 36.0,
+    max_pages: int | None = None,
+) -> dict[str, Any]:
+    """Extract SCALE callouts per detected view region (diagram/detail), not just per page.
+
+    This is meant to reduce "wrong scale for this detail bubble" errors in downstream
+    reasoning (e.g. lengths inferred from graphics when dimensions are missing).
+    """
+    pdf_path = pdf_path.expanduser().resolve()
+    doc = fitz.open(pdf_path)
+    try:
+        total = len(doc)
+        n = total if max_pages is None else min(total, max_pages)
+        pages_out: list[dict[str, Any]] = []
+        for pg in detections_payload.get("pages") or []:
+            if not isinstance(pg, dict):
+                continue
+            page_index_1based = int(pg.get("page_index") or 0)
+            if page_index_1based < 1 or page_index_1based > n:
+                continue
+            view_regions = pg.get("view_regions") or []
+            if not isinstance(view_regions, list) or not view_regions:
+                continue
+            page = doc[page_index_1based - 1]
+            views: list[dict[str, Any]] = []
+            for vr in view_regions:
+                if not isinstance(vr, dict):
+                    continue
+                bbox = vr.get("bbox")
+                if not isinstance(bbox, dict):
+                    continue
+                rect = _norm_bbox_to_pdf_rect(page, bbox)
+                if rect is None:
+                    continue
+                clip = _expand_rect(page, rect, margin_pt)
+                clipped_text = page.get_text("text", clip=clip) or ""
+                hits, metric_extra = _find_hits_in_page(clipped_text)
+                scales_serialized: list[dict[str, Any]] = []
+                for h in hits:
+                    scales_serialized.append(
+                        {
+                            "raw": h.raw,
+                            "drawing_inches": h.drawing_inches,
+                            "real_feet": h.real_feet,
+                            "feet_per_drawing_inch": h.feet_per_drawing_inch,
+                            "kind": h.kind,
+                        }
+                    )
+                scales_serialized.extend(metric_extra)
+                if not scales_serialized:
+                    continue
+                views.append(
+                    {
+                        "view_id": vr.get("view_id"),
+                        "label": vr.get("label"),
+                        "scales": scales_serialized,
+                        "clip_bbox_pdf_pt": {
+                            "x0": round(float(clip.x0), 3),
+                            "y0": round(float(clip.y0), 3),
+                            "x1": round(float(clip.x1), 3),
+                            "y1": round(float(clip.y1), 3),
+                        },
+                        "note": "Scales parsed from PDF text clipped to the detected view region (with margin).",
+                    }
+                )
+            if views:
+                pages_out.append({"page": page_index_1based, "views": views})
+        return {
+            "pdf": str(pdf_path),
+            "margin_pt": float(margin_pt),
+            "pages": pages_out,
+            "notes": "Per-view scale callouts (detail bubbles) extracted using detection view regions.",
+        }
+    finally:
+        doc.close()
+
+
+def format_view_scales_for_prompt(payload: dict[str, Any], *, max_chars: int = 12000) -> str:
+    """Prompt appendix: view_id/label → scale hits."""
+    lines: list[str] = [
+        "--- VIEW-SPECIFIC DRAWING SCALES (from view-region text; prefer these over page-scale) ---",
+        "If a view/detail has its own SCALE note, use it when inferring lengths from the graphic.",
+        "",
+    ]
+    for pg in payload.get("pages") or []:
+        if not isinstance(pg, dict):
+            continue
+        pno = pg.get("page")
+        views = pg.get("views") or []
+        if not views:
+            continue
+        lines.append(f"Page {pno}:")
+        for v in views:
+            if not isinstance(v, dict):
+                continue
+            vid = v.get("view_id") or ""
+            label = v.get("label") or ""
+            lines.append(f"  - view_id={vid!s}  label={label!s}")
+            for s in v.get("scales") or []:
+                if not isinstance(s, dict):
+                    continue
+                if str(s.get("kind", "")).startswith("metric_ratio"):
+                    lines.append(f"      * {s.get('raw')!s}  [metric ratio]")
+                    continue
+                fpd = s.get("feet_per_drawing_inch")
+                raw = s.get("raw")
+                if isinstance(fpd, (int, float)) and fpd == fpd:
+                    lines.append(f"      * {raw!s}  feet_per_drawing_inch={fpd:.6g}")
+                else:
+                    lines.append(f"      * {raw!s}")
+        lines.append("")
+
+    text = "\n".join(lines).strip()
+    if len(text) > max_chars:
+        text = text[: max_chars - 20] + "\n... [truncated]"
+    return text
 
 
 def format_scales_for_prompt(payload: dict[str, Any], *, max_chars: int = 12000) -> str:
